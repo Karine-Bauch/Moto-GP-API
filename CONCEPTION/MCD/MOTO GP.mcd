@@ -1,0 +1,11 @@
+EQUIPE: nom, sponsor
+fournit, 01 MARQUE, 0N EQUIPE
+CIRCUIT: nom, pays, ville
+
+appartient, 0N PILOTE, 0N EQUIPE
+MARQUE: nom
+a lieu sur, 0N COURSE, 01 CIRCUIT
+
+PILOTE: nom, prénom, numéro, nationalité
+participe, 0N PILOTE, 0N COURSE
+COURSE: nom, date, classement(1 à 24)
