@@ -6,7 +6,7 @@ CREATE TABLE "pilot" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "lastname" TEXT NOT NULL,
     "firstname" TEXT NOT NULL,
-    "number" TEXT NOT NULL,
+    "number" INT NOT NULL,
     "nationality" TEXT NOT NULL,
     "created_at" TIMESTAMPTZ NOT NULL DEFAULT now(),
     "updated_at" TIMESTAMPTZ
