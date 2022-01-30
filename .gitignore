@@ -1,0 +1,11 @@
+# npm
+node_modules
+package-lock.json
+
+#config
+.env
+sqitch.conf
+
+#log
+**/*.log
+**/*.log.*

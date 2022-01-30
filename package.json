@@ -1,0 +1,35 @@
+{
+  "name": "moto-gp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karine-Bauch/Moto-GP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karine-Bauch/Moto-GP/issues"
+  },
+  "homepage": "https://github.com/Karine-Bauch/Moto-GP#readme",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-jsdoc-swagger": "^1.6.7",
+    "joi": "^17.6.0",
+    "pg": "^8.7.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
