@@ -6,7 +6,7 @@ const pilotRouter = require('./pilot');
 const racetrackRouter = require('./racetrack');
 const raceRouter = require('./race');
 
-const apiController = require('../../controllers/api');
+const { apiController } = require('../../controllers/api');
 
 // const ApiError = require('../../helpers/errorHandler');
 
@@ -20,8 +20,8 @@ router.all('/', apiController.home);
 router.use('/manufacturers', manufacturerRouter);
 router.use('/teams', teamRouter);
 router.use('/pilots', pilotRouter);
-router.use('/racetracks', racetrackRouter);
-router.use('/races', raceRouter);
+// router.use('/racetracks', racetrackRouter);
+// router.use('/races', raceRouter);
 
 router.use(() => {
     // throw new ApiError(404, 'API route not found');
