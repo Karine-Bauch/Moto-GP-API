@@ -20,8 +20,8 @@ router.all('/', apiController.home);
 router.use('/manufacturers', manufacturerRouter);
 router.use('/teams', teamRouter);
 router.use('/pilots', pilotRouter);
-// router.use('/racetracks', racetrackRouter);
-// router.use('/races', raceRouter);
+router.use('/racetracks', racetrackRouter);
+router.use('/races', raceRouter);
 
 router.use(() => {
     // throw new ApiError(404, 'API route not found');

@@ -1,6 +1,8 @@
 const manufacturerController = require('./manufacturer');
 const teamController = require('./team');
 const pilotController = require('./pilot');
+const racetrackController = require('./racetrack');
+const raceController = require('./race');
 
 const apiController = {
     home(req, res) {
@@ -16,4 +18,6 @@ module.exports = {
     manufacturerController,
     teamController,
     pilotController,
+    racetrackController,
+    raceController,
 };
