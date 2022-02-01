@@ -9,6 +9,6 @@ module.exports = {
     async findOne(id) {
         const manufacturerId = Number(id);
         const result = await client.query(`SELECT * FROM "manufacturer" WHERE id = ${manufacturerId}`);
-        return result.rows;
+        return result.rows[0];
     },
 };

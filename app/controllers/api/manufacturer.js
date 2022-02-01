@@ -11,7 +11,7 @@ module.exports = {
     async getOne(req, res) {
         const manufacturer = await manufacturerDatamapper.findOne(req.params.id);
 
-        if (!manufacturer || manufacturer.length === 0) {
+        if (!manufacturer) {
             throw ApiError(404, 'Manufacturer not found');
         }
 

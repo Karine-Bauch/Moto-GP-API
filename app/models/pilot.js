@@ -8,7 +8,7 @@ module.exports = {
 
     async findOne(id) {
         const pilotId = Number(id);
-        const result = await client.query(`SELECT * FROM "pilot" WHERE id = ${pilotId}`);
-        return result.rows;
+        const result = await client.query(`SELECT * FROM "pilot" WHERE "id" = ${pilotId}`);
+        return result.rows[0];
     },
 };
