@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Karine-Bauch/Moto-GP#readme",
   "dependencies": {
+    "axios": "^0.25.0",
     "bunyan": "^1.8.15",
     "cors": "^2.8.5",
     "debug": "^4.3.3",

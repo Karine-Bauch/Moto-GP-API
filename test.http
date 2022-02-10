@@ -1,0 +1,50 @@
+### Accueil API
+GET http://localhost:5000/api/
+
+//---------------//
+
+### Liste manufacturers
+GET http://localhost:5000/api/manufacturers
+
+### Manufacturer by Id (2) - teams associées
+GET http://localhost:5000/api/manufacturers/2
+
+//---------------//
+
+### Liste teams
+GET http://localhost:5000/api/teams
+
+### Team by Id (8)
+GET http://localhost:5000/api/teams/8
+
+//---------------//
+
+### Liste pilots
+GET http://localhost:5000/api/pilots
+
+### Pilot by Id (23)
+GET http://localhost:5000/api/pilots/23
+
+//---------------//
+
+### Liste racetracks
+GET http://localhost:5000/api/racetracks
+
+### Racetrack by Id (9)
+GET http://localhost:5000/api/racetracks/9
+
+//---------------//
+
+### Liste races
+GET http://localhost:5000/api/races
+
+### Race by Id (15)
+GET http://localhost:4000/api/races/15
+
+//-----------------------//
+
+### Test APIGeocoding - donne le résultat complet de la requete
+GET http://www.mapquestapi.com/geocoding/v1/address?key={{$dotenv API_MAP_KEY}}&location=Lauris
+
+### Test APIWeather - météo du jour (pour avant c'est payant)
+GET https://api.openweathermap.org/data/2.5/onecall/timemachine?lat=30.264979&lon=-97.746598&dt=1644212551&appid={{$dotenv API_WEATHER_KEY}}
