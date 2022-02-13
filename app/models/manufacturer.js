@@ -12,7 +12,7 @@ module.exports = {
         FROM "manufacturer"
         JOIN "team" ON "manufacturer"."id" = "manufacturer_id"
         WHERE "manufacturer"."id" = ${manufacturerId}
-        GROUP BY manufacturer.name`);
+        GROUP BY manufacturer.name, manufacturer.id`);
         return result.rows;
     },
 };

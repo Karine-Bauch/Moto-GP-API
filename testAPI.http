@@ -7,7 +7,7 @@ GET http://localhost:5000/api/
 GET http://localhost:5000/api/manufacturers
 
 ### Manufacturer by Id (2) - teams associées
-GET http://localhost:5000/api/manufacturers/2
+GET http://localhost:5000/api/manufacturers/3
 
 //---------------//
 
@@ -24,6 +24,10 @@ GET http://localhost:5000/api/pilots
 
 ### Pilot by Id (23)
 GET http://localhost:5000/api/pilots/23
+
+# ### Pilot by Name (Quartararo) A TESTER + TARD
+# GET http://localhost:5000/api/pilots/quartararo
+
 
 //---------------//
 

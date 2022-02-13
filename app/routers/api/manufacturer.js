@@ -1,8 +1,5 @@
 const express = require('express');
 
-// const validate = require('../../validation/validator');
-// const schema = require('../../validation/schemas/manufacturerSchema');
-
 const { manufacturerController } = require('../../controllers/api');
 const controllerHandler = require('../../helpers/apiControllerHandler');
 
