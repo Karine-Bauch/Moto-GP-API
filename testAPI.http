@@ -42,8 +42,8 @@ GET http://localhost:5000/api/racetracks/9
 ### Liste races
 GET http://localhost:5000/api/races
 
-### Race by Id (15)
-GET http://localhost:5000/api/races/15
+### Race by Id (10)
+GET http://localhost:5000/api/races/10
 
 //-----------------------//
 

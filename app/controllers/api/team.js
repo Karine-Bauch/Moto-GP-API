@@ -12,7 +12,7 @@ module.exports = {
         const team = await teamDatamapper.findOne(req.params.id);
 
         if (!team) {
-            throw new ApiError(404, 'Team nit found');
+            throw new ApiError(404, 'Team not found');
         }
 
         return res.json(team);

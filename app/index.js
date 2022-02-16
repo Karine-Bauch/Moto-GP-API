@@ -4,6 +4,7 @@ const cors = require('cors');
 const router = require('./routers');
 
 const app = express();
+
 require('./helpers/apiDocs')(app);
 
 // Config des views avec chemin absolu pour faciliter deploiement sur Heroku
