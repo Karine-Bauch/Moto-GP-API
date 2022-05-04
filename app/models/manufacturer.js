@@ -24,7 +24,7 @@ module.exports = {
      */
 
     async findAll() {
-        console.log(client);
+        // console.log(client);
         const result = await client.query('SELECT * FROM "manufacturer"');
         return result.rows;
     },

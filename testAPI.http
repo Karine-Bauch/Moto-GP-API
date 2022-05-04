@@ -53,8 +53,8 @@ GET http://localhost:5001/api/races/10
 
 //-----------------------//
 
-### Test APIGeocoding - donne le résultat complet de la requete
-GET http://www.mapquestapi.com/geocoding/v1/address?key={{$dotenv API_MAP_KEY}}&location=Lauris
+# ### Test APIGeocoding - donne le résultat complet de la requete
+# GET http://www.mapquestapi.com/geocoding/v1/address?key={{$dotenv API_MAP_KEY}}&location=Lauris
 
-### Test APIWeather - météo du jour (pour avant c'est payant)
-GET https://api.openweathermap.org/data/2.5/onecall/timemachine?lat=30.264979&lon=-97.746598&dt=1644212551&appid={{$dotenv API_WEATHER_KEY}}
+# ### Test APIWeather - météo du jour (pour avant c'est payant)
+# GET https://api.openweathermap.org/data/2.5/onecall/timemachine?lat=30.264979&lon=-97.746598&dt=1644212551&appid={{$dotenv API_WEATHER_KEY}}

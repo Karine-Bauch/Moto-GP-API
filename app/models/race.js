@@ -19,8 +19,8 @@ const client = require('../config/db');
  * @property {string} country race country
  * @property {string} city race city
  * @property {object} pilots array of pilots who have participated at the race
- * @property {object} weatherRace array of weather conditions (here at today,
- * because API is not free for other days)
+//  * @property {object} weatherRace array of weather conditions (here at today,
+//  * because API is not free for other days)
  */
 
 module.exports = {
