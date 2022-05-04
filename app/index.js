@@ -10,6 +10,8 @@ require('./helpers/apiDocs')(app);
 // Config des views avec chemin absolu pour faciliter deploiement sur Heroku
 app.set('views', `${process.cwd()}/app/views`);
 
+app.use('/', express.static('public'));
+
 // Moteur de views : pug
 app.set('view engine', 'pug');
 

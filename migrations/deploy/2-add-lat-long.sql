@@ -2,8 +2,8 @@
 -- NOT USED
 BEGIN;
 
-ALTER TABLE "racetrack"
-ADD COLUMN "latitude" FLOAT
+ALTER TABLE "racetrack",
+ADD COLUMN "latitude" FLOAT,
 ADD COLUMN "longitude" FLOAT;
 
 UPDATE "racetrack"

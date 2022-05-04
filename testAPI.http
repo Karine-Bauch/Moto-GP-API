@@ -1,49 +1,49 @@
 ### Accueil API
-GET http://localhost:5000/api/
+GET http://localhost:5001/api/
 
 //---------------//
 
 ### Liste manufacturers
-GET http://localhost:5000/api/manufacturers
+GET http://localhost:5001/api/manufacturers
 
 ### Manufacturer by Id (2) - teams associées
-GET http://localhost:5000/api/manufacturers/3
+GET http://localhost:5001/api/manufacturers/3
 
 //---------------//
 
 ### Liste teams
-GET http://localhost:5000/api/teams
+GET http://localhost:5001/api/teams
 
 ### Team by Id (8)
-GET http://localhost:5000/api/teams/8
+GET http://localhost:5001/api/teams/8
 
 //---------------//
 
 ### Liste pilots
-GET http://localhost:5000/api/pilots
+GET http://localhost:5001/api/pilots
 
 ### Pilot by Id (23)
-GET http://localhost:5000/api/pilots/23
+GET http://localhost:5001/api/pilots/23
 
 # ### Pilot by Name (Quartararo) A TESTER + TARD
-# GET http://localhost:5000/api/pilots/quartararo
+# GET http://localhost:5001/api/pilots/quartararo
 
 
 //---------------//
 
 ### Liste racetracks
-GET http://localhost:5000/api/racetracks
+GET http://localhost:5001/api/racetracks
 
 ### Racetrack by Id (9)
-GET http://localhost:5000/api/racetracks/9
+GET http://localhost:5001/api/racetracks/9
 
 //---------------//
 
 ### Liste races
-GET http://localhost:5000/api/races
+GET http://localhost:5001/api/races
 
 ### Race by Id (10)
-GET http://localhost:5000/api/races/10
+GET http://localhost:5001/api/races/10
 
 //-----------------------//
 

@@ -1,0 +1,17 @@
+.container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.title {
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #e373cb;
+}
+
+.btn {
+    background-color: indigo;
+    border: none;
+}

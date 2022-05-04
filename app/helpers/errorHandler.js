@@ -1,4 +1,4 @@
-const logger = require('./logger');
+// const logger = require('./logger');
 const ApiError = require('../errors/apiError');
 const WebsiteError = require('../errors/websiteError');
 
@@ -9,9 +9,9 @@ const errorHandler = (err, res) => {
         statusCode = 500;
     }
 
-    if (statusCode === 500) {
-        logger.error(err);
-    }
+    // if (statusCode === 500) {
+    //     logger.error(err);
+    // }
 
     if (statusCode === 500 && res.app.get('env') !== 'development') {
         message = 'Internal Server Error';
@@ -27,7 +27,7 @@ const errorHandler = (err, res) => {
         res.status(statusCode).json({
             status: 'error',
             statusCode,
-            message,
+            // message,
         });
     }
 };
