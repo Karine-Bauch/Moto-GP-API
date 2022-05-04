@@ -1,3 +1,9 @@
+### Doc Swagger
+GET http://localhost:5001/api-docs/#/
+
+### Website in PUG
+GET http://localhost:5001
+
 ### Accueil API
 GET http://localhost:5001/api/
 
