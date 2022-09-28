@@ -15,6 +15,6 @@ To run you should have :
 - run `sqitch deploy --to 1-initdb.sql `
 - execute the DML in the DB created
 - run the app `npm start`
-- open http://localhost:PORT/api-docs
+- open http://localhost:PORT/api-docs (replace PORT by the port you use for your app).
 
 Now you can test the API in JSDOC SWAGGER
