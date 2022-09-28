@@ -8,7 +8,7 @@ This API give many informations about Moto GP of 2021 season
 - Races (name, country, recatrack...)
 
 To run you should have :
-- postgresql installed
+- node and postgresql installed
 - to create the DB in pg
 - run `npm i`
 - config the sqitch.conf, .env
