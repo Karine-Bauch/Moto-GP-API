@@ -8,7 +8,7 @@ This API give many informations about Moto GP of 2021 season
 - Races (name, country, recatrack...)
 
 To run you should have :
-- node and postgresql installed
+- node, postgresql and sqitch installed
 - to create the DB in pg
 - run `npm i`
 - config the sqitch.conf, .env
@@ -18,3 +18,4 @@ To run you should have :
 - open http://localhost:PORT/api-docs (replace PORT by the port you use for your app).
 
 Now you can test the API in JSDOC SWAGGER
+And a miniwebsite exist to present all the categories at http://localhost:PORT/
