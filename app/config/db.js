@@ -43,6 +43,7 @@ module.exports = {
         // un tableau en une liste
         // de variables / paramétre ce qui fait que la méthode query du client sera
         // appelé exactement de la même façon que celle de notre module
+        console.log(pool);
         return this.originalClient.query(...params);
     },
 };

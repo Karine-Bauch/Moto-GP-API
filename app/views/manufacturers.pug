@@ -1,0 +1,16 @@
+extends layouts/main.pug
+
+block append header
+    include partials/header.pug
+
+block append main
+    section
+        h2.title All manufacturers
+
+        each manufacturer in manufacturers
+            small.primary= manufacturer.name
+            br
+
+
+block append footer
+    include partials/footer.pug

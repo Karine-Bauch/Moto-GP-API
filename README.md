@@ -12,7 +12,7 @@ To run you should have :
 - to create the DB in pg
 - run `npm i`
 - config the sqitch.conf, .env
-- run `sqitch deploy --to 1-initdb.sql `
+- run `sqitch deploy --to 1-initdb `
 - execute the DML in the DB created
 - run the app `npm start`
 - open http://localhost:PORT/api-docs (replace PORT by the port you use for your app).

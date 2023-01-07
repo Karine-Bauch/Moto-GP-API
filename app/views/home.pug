@@ -8,7 +8,19 @@ block append main
         h2.title API Moto'GP
         .grid
             p.text-center
-                a(href='http://localhost:5001/pilots' role="button").btn Tous les pilotes
+                a(href='http://localhost:5001/pilots' role="button").btn All Pilots
+        .grid
+            p.text-center
+                a(href='http://localhost:5001/teams' role="button").btn All Teams
+        .grid
+            p.text-center
+                a(href='http://localhost:5001/manufacturers' role="button").btn All Manufacturers
+        .grid
+            p.text-center
+                a(href='http://localhost:5001/races' role="button").btn All Races
+        .grid
+            p.text-center
+                a(href='http://localhost:5001/racetracks' role="button").btn All Racetracks
 
 block append footer
     include partials/footer.pug
